@@ -3,6 +3,7 @@
 var url = 'http://api.icndb.com/jokes/random';
 
 var button = document.getElementById('get-joke');
+button.onclick = getJoke;
 document.body.onload = function(){
     getJoke();
 };
